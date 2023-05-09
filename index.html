@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hand-held Electronic Device - Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 20px;
+    }
+
+    img {
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin-bottom: 20px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Hand-held Electronic Device</h1>
+    <img src="device-image.jpg" alt="Hand-held Electronic Device">
+    <p>The hand-held electronic device you can not live without.</p>
+    <p>Price: $199.99</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <script>
+    function addToCart() {
+      // You can implement the functionality to add the device to the cart here
+      alert('The device has been added to the cart!');
+    }
+  </script>
+</body>
+
+</html>
